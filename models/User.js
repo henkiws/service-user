@@ -44,7 +44,7 @@ module.exports = (sequelize, DataTypes) => {
             allowNull: false
         }
     },{
-        tableName: 'user',
+        tableName: 'users',
         timestamps: true
     })
 
