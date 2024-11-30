@@ -10,7 +10,7 @@ module.exports = (sequelize, DataTypes) => {
             type: DataTypes.TEXT,
             allowNull: false
         },
-        token: {
+        user_id: {
             type: DataTypes.INTEGER,
             allowNull: false
         },
